@@ -1,4 +1,7 @@
 # Offer_customer_segment
+
+For detailed description of the project please refer to Medium blog (https://medium.com/@mamatov.aziz_68918/loyalty-program-analytics-starbucks-challenge-340c29198b13)
+
 We will determine the customer segment most susceptible to promotional offer using ML or heuristic approaches
 This data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
 
@@ -37,3 +40,18 @@ The data is contained in three files:
 * person (str) - customer id
 * time (int) - time in hours since start of test. The data begins at time t=0
 * value - (dict of strings) - either an offer id or transaction amount depending on the record
+
+# Libraries used
+* pandas, numpy
+* matplotlib.pyplot
+* seaborn
+* sklearn.model_selection: train_test_split
+* sklearn.model_selection: GridSearchCV
+* catboost
+
+# References:
+https://catboost.ai/
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.merge_asof.html
+https://www.cleverism.com/ultimate-guide-unit-economics/
+
+
