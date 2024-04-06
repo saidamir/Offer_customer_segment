@@ -1,4 +1,4 @@
-# Offer_customer_segment
+# Starbucks: Offer customer segment
 
 It is imperative to optimize the marketing related efforts such as they produce the best results, i.e. return on investments (conversion, loyalty, referral) with respect to time and expenses. In this case, we will focus on the likelihood, on whether the customers will respond to the offer made by Starbucks based on their demographical and historical transactional data. I am going to build a Machine Learning (ML) model which will predict whether the user will make a purchases as a response to the offer or without it, based on the transactional and demographic data on that user. 
 
